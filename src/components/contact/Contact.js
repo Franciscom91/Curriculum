@@ -83,7 +83,7 @@ const Contact = () => {
                             Send
                         </Button>
                         <Button variant="secundary" type="reset">
-                            Clear
+                            Clean up
                         </Button>
                     </Form>
             </Row>

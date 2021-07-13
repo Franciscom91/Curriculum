@@ -11,7 +11,7 @@
 
 .home-content{
     width: 100%;
-    top: 20%;
+    top: 25%;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -42,6 +42,13 @@
         h2, p{
             font-size: small;
             margin-bottom: 0;
+        }   
+    }
+}
+@media (max-width: 190px) {
+    .home-content{
+        h2, p{
+            display: none;
         }   
     }
 }
