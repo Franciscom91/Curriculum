@@ -1,0 +1,35 @@
+.education{
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    width: 90%;
+    color: #ffff;
+    background-color: #7dbdc9;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.3);
+    border-radius: 2px;
+
+    .education-content{
+        padding: 20px;
+        align-items: center;
+
+        h2{
+            font-family: $principal-font;
+            font-weight: lighter;
+            border-bottom: solid 1px;
+            border-bottom-style: dashed;
+        }
+
+        .education-image{
+            text-align: center;
+        }
+
+        .education-text{
+            padding-top: 12px;
+        }
+        
+    }
+
+    
+}
