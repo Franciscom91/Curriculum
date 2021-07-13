@@ -20,34 +20,28 @@
 
     .myself{
         border-radius: 100px;
+        width: 25%;
     }
 
-    h2{
+    h2, p{
         color: #ffff;
         font-family: $principal-font;
     }
 
     p{
-        color: #ffff;
         font-weight: 600;
     }
 }
 
 .sr-only{
-    opacity: 0;
+    display: none;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 550px) {
     .home-content{
         h2, p{
-            display: none;
-        }
-    }
-}
-@media (max-width: 370px) {
-    .home-content{
-        .myself{
-            display: none;
-        }
+            font-size: small;
+            margin-bottom: 0;
+        }   
     }
 }
