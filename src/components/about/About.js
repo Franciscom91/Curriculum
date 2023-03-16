@@ -6,7 +6,7 @@ const About = () => {
             <Row className="about-content">
                 <Col className="about-content-left">
                     <h2>About Me</h2>
-                    <p>Hi, my name is Francisco. I'm a 29 years old full stack developer. I'm a person committed with my work, self-taught and capable to solve problems.</p>
+                    <p>Hi, my name is Francisco. I'm a full stack developer. I'm a person committed with my work, self-taught and capable to solve problems. I'm prepared to face new challenges and get over myself every day.</p>
                 </Col>
                 <Col className="about-content-right">
                     <h2>Basic Information</h2>
